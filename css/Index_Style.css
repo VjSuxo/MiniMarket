@@ -24,7 +24,44 @@ p{
 .Header{
     background: #333;
     color: white;
+    padding: 2rem;
 }
+
+    .Header a{
+        color: white;
+        text-decoration: none;
+    }
+.Logo-Nav-Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    letter-spacing: 5px;
+    font-size: 1.3em;
+    
+}
+
+.Navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .Navigation ul li{
+        display:  inline-block;
+    }
+    .Navigation ul li a{
+        display:  block;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s linear;
+        border-radius: 25px;
+    }
+
+    .Navigation ul li a:hover{
+        background: #535352 ;
+    }
 
 /*{
     margin: 0px;
