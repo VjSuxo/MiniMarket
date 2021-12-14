@@ -1,11 +1,64 @@
-*{
+body{
+    font-family: georgia,times,serif;
+    color: chocolate;
+    font-size: 1.3rem;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+.Container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+
+}
+.Header{
+    background: #333;
+    color: white;
+}
+
+/*{
     margin: 0px;
     padding: 0px;
 }
 
-div #General{
+div#General{
     margin: auto;
+    margin-top: 30px;
     width: 960px;
     height: 800px;
     background-color: red;
+}
+
+div#Ofertas{
+    float: right;
+    width: 300px;
+    height: 500px;
+    background-color: aqua;
+
+}
+
+div#Novedades{
+
+    width: 640px;
+    height: 200px;
+    background-color: bisque;
+
+}
+
+div#Body{
+    margin-top: 20px;
+    width: 640px;
+    height: 580px;
+    background-color: brown;
+
 }
