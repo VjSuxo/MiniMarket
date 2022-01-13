@@ -1,3 +1,4 @@
 # MiniMarket
 Proyecto Pag Web
-sobre venta online de productos
+¿De que trata? Es sobre la venta online de la canasta familiar
+
